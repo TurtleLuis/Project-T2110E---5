@@ -1,0 +1,399 @@
+*{
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #222222;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none !important;
+}
+.Container{
+    width: 1863px;
+    height: 787px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Container .Left{
+    width: 914px;
+    height: 100%;
+    position: relative;
+}
+.Container .Right{
+    width: 914px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Container .Right .Column{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Container .Left .Content .Inner-Content{
+    position: absolute;
+    top:30%;
+    left:100px;
+}
+.Container .Left .Content .Picture-Left{
+    width: 100%;
+    height: 100%;
+}
+.Container .Left .Content .Text-1{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.Container .Left .Content .Text-2{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.Container .Left .Content .Text-3{
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+.Container .Left .Content .Text-3:hover{
+    background-color: #ffffff;
+    color: #222222;
+}
+.Container .Right .Column .Row-1{
+    width: 100%;
+    height: 377px;
+    display: flex;
+    justify-content: space-between;
+}
+.Container .Right .Column .Row-1 .R-Image{
+    width: 440px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Container .Right .Column .Row-1 .R-Image .Piture-Right{
+    width: 100%;
+    height: 100%;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Inner-Content{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    top: 5%;
+    left: 100px;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Inner-Content .Text-1{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 110px;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Inner-Content .Text-2{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: -20px;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Hover-Content{
+    position: absolute;
+    width: 400px;
+    height: 337px;
+    top: 20px;
+    left: 20px;
+    background-color: #222222;
+    transition: all 0.3s;
+    color: white;
+    text-align: center;
+    opacity: 0;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Hover-Content .R-Text-1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Hover-Content .R-Text-2{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Hover-Content .R-Text-3{
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s;
+    margin-top: -10px;
+    border-radius: 4px;
+}
+.Container .Right .Column .Row-1 .R-Image .R-Hover-Content .R-Text-3:hover{
+    color: #222222;
+    background-color: #ffffff;
+}
+.Container .Right .Column .Row-1 .R-Image:hover .R-Hover-Content{
+    opacity: 1;
+}
+.number-1{
+    border: none;
+    border-bottom: 4px dotted #dadada;
+    padding-bottom: 60px;
+}
+.Section{
+    height: 650px;
+}
+.Section .Container-1{
+    width: 1686px;
+    height: 100%;
+    margin: auto;
+}
+.Section .Container-1 .Heading{
+    font-family: "Segoe UI";
+    padding-top: 60px;
+}
+.Section .Container-1 .Heading .Text-Heading{
+    font-size: 38px;
+    font-weight: 700;
+}
+.Section .Container-1 .Heading .Text{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: #a8a5a5;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-top: -20px;
+}
+.Section .Container-1 .List-Picture{
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Section .Container-1 .List-Picture .Item .Picture{
+    width: 399px;
+    height: 423px;
+}
+.Section .Container-1 .List-Picture .Item .Picture .Men-Image{
+    position: relative;
+    z-index: 1;
+    height: 423px;
+}
+.Section .Container-1 .List-Picture .Item .Picture .Hover-Content-1{
+    position: absolute;
+    margin-top: 320px;
+    width: 240px;
+    font-size: 20px;
+    margin-left: 60px;
+    z-index: 2;
+    opacity: 0;
+    transition: all .5s;
+}
+.Section .Container-1 .Hover-Content-1 .List{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.Section .Container-1 .Hover-Content-1 .List .Box {
+    box-sizing: border-box;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+.Section .Container-1 .Hover-Content-1 .List .Box .fa-eye{
+    color: black;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Section .Container-1 .Hover-Content-1 .List .Box .fa-star{
+    color: black;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Section .Container-1 .Hover-Content-1 .List .Box .fa-shopping-cart{
+    color: black;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Section .Container-1 .List-Picture .Item .Picture:hover .Hover-Content-1{
+    opacity: 1;
+    background-color: transparent;
+}
+.Section .Container-1 .Down-Content{
+    z-index: 3;
+    position: relative;
+    margin-top: -5px;
+}
+.Section .Container-1 .Down-Content .Text{
+    font-size: 28px;
+    color: #2a2a2a;
+    font-weight: 900;
+    margin-bottom: 8px;
+    font-family: "Segoe UI";
+    letter-spacing: 0.5px;
+}
+.Section .Container-1 .Down-Content .Cost{
+    font-size: 18px;
+    color: #a1a1a1;
+    font-weight: 600;
+    display: block;
+}
+.Section .Container-1 .Down-Content .Stars{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.Section .Container-1 .Down-Content .Stars li{
+    margin-left: 3px;
+}
+.number-2{
+    border: none;
+    border-bottom: 4px dotted #dadada;
+    padding-bottom: 150px;
+}
+.Section-3{
+    width: 1686px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Segoe UI";
+    margin-top: 100px;
+}
+.Section-3 .Left-Content{
+    width: 850px;
+    height: 100%;
+}
+.Section-3 .Right-Content{
+    width: 750px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Section-3 .Left-Content .Title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+.Section-3 .Left-Content .Paragraph{
+    font-size: 22px;
+    font-weight: 500;
+    color: #bebbbb;
+}
+.Section-3 .Left-Content .Quote{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.Section-3 .Left-Content .Quote .fa-quote-left{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+
+}
+.Section-3 .Left-Content .Quote .Paragraph-Second{
+    width: 810px;
+    font-size: 22px;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.Section-3 .Left-Content .Paragraph-Third{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #bebbbb;
+}
+.Section-3 .Left-Content .Button .In-Button{
+    font-size: 20px;
+    color: #222222;
+    border: 1px solid #222222;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s;
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding-top: 14px;
+    margin-top: 30px;
+}
+.Section-3 .Left-Content .Button .In-Button:hover{
+    background-color: #222222;
+    color: #ffffff;
+}
+.Section-3 .Right-Content .Row-Right{
+    width: 100%;
+    height: 359px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Section-3 .Right-Content .Row-Right .R-Picture-First{
+    width: 359px;
+    height: 359px;
+    text-align: center;
+    background-color: #f5f3f3;
+}
+.Section-3 .Right-Content .Row-Right .R-Picture-First .R-Text-Up{
+    margin-top: 110px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.Section-3 .Right-Content .Row-Right .R-Picture-First .R-Text-Down{
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: #a1a1a1;
+}
+.Section-3 .Right-Content .Row-Right .R-Picture{
+    width: 359px;
+    height: 100%;
+}
+.Section-3 .Right-Content .Row-Right .R-Picture .Image{
+    width: 100%;
+    height: 100%;
+}
+.number-3 {
+    border: none;
+    border-bottom: 4px dotted #dadada;
+    padding-bottom: 80px;
+}
